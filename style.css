@@ -129,10 +129,52 @@ header{
     color: #fff;
     font-size: 35px;
 }
-.call-content .btn{
+.call-content .btn, .btn-subscribe{
     margin-top: 20px;
     font-size: 14px;
     background-color: #fff;
     color: #F15B22;
     font-weight: bold;
+}
+.footer-container{
+    padding: 80px 150px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    color: #fff;
+}
+.footer-container ul{
+    list-style: none;
+    display: flex;
+}
+.footer-container ul li{
+    margin-right: 10px;
+}
+.contact{
+    width: 40%;
+}
+.contact h1{
+    margin-bottom: 20px;
+}
+.contact p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe h3{
+    padding-bottom: 20px;
+}
+.subscribe input[type="email"]{
+    padding: 13px 30px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-subscribe{
+    width: 120px;
 }
